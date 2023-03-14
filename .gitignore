@@ -1,0 +1,4 @@
+
+*.qmlc
+*.pyc
+plugin_scripts/setQualityChangesGroup.py
