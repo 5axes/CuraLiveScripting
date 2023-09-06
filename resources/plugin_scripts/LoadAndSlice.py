@@ -44,6 +44,8 @@ while _update_timer.isActive():
     print("Wait ! {} s".format(i))
 
 gcode_writer = cast(MeshWriter, PluginRegistry.getInstance().getPluginObject("GCodeWriter"))
+# Wait for the time to display the result
+time.sleep(i)
 
 # open wt Write and text mode
 with open(str(FileGcode), "wt") as stream:

@@ -12,7 +12,7 @@ trimesh.util.attach_to_log()
 mesh = trimesh.load(file, force='mesh')
 
 print("watertight:",     mesh.is_watertight)
-print(mesh.euler_number)
+print("euler number:",     mesh.euler_number)
 
 Val_Offset = 0.5
 
